@@ -1,38 +1,157 @@
+#myFooter {
+    background-color: #E0E0E0;
+    color: #E0E0E1;
+    padding-top: 30px;
+}
+
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter p{
+    font-size: 13px;
+    text-align: center;
+    color: #040404;
+}
+
+#myFooter h5 {
+    font-size: 13px;
+    color: #040404;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+.img-circle{
+    border-radius: 80%;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border:3px solid  #DE8714;
+}
 
 
 
 
-/* .container {
-    width: 100%;
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+.h_5{
+    background-color: #DE8714;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .topnav .search-container {
+        float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .topnav input[type=text] {
+        border: 1px solid #333333;
+    }
+    #myFooter {
+        text-align: center;
+    }
+}
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+html{
     height: 100%;
 }
 
-
-header {
-    padding-top: 35px;
-    background-color: #E0E0E0;
-    border: 1px solid #E0E0E1;
-    display: block;
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
 }
-nav {
-    height: 60px;
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+
+.topnav {
     background-color:#DE8714;
 }
 
-.wrapper {
-    width: 1200px;
-    margin: 0 auto;
+
+.topnav .search-container {
+    float: right;
+    margin-right: 93px;
+
 }
 
-.banner{
-    height: 236px;
+.topnav input[type=text] {
+    padding: 6px;
+    /*margin-top: 5px;*/
+    font-size: 17px;
+    border: none;
+    background-color: #333333 !important;
 }
 
-div{
-        margin: 0;
-        padding: 0;
-        border: 0;
+.topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    /*margin-top: 5px;*/
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
 }
-div {
-    display: block;
-} */
+
+
+
+.item {
+    position:relative;
+    padding-top:20px;
+    display:inline-block;
+}
